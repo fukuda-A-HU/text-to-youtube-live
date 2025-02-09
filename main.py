@@ -5,7 +5,7 @@ import requests
 import pyaudio
 
 def synthesize_and_play(text, speaker_id=3):
-    host = "10.255.255.254"
+    host = "127.0.0.1"
     port = 50021
 
     # 音声合成用のクエリ作成
